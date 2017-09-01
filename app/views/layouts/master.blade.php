@@ -352,7 +352,7 @@
         <p class="col-md-9 col-sm-9 col-xs-12 copyright"> <a href="#" target="_blank">{{Session::get('inName')}}</a> &copy;2016</p>
 
         <p class="col-md-3 col-sm-3 col-xs-12 powered-by"> <a
-                    href="https://www.linkedin.com/in/muhammedatallah" target="_blank">برمجة وتصميم المهندس محمد عطاالله muhammed3tallah@gmail.com 01011192091</a></p>
+                    href="https://www.linkedin.com/in/muhammedatallah" target="_blank">m3atallah@gmail.com 01011192091</a></p>
     </footer>
 
 </div><!--/.fluid-container-->

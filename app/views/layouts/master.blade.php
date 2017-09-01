@@ -88,23 +88,23 @@
                 <span class="caret"></span>
             </button>
             <ul class="dropdown-menu">
-                <li><a href="/settings"><i class="glyphicon glyphicon-user"></i> Profile</a></li>
+                <li><a href="/settings"><i class="glyphicon glyphicon-user"></i> الصفحة الشخصية</a></li>
                 <li class="divider"></li>
-                <li><a href="/users/logout"><i class="glyphicon glyphicon-log-out"></i> Logout</a></li>
+                <li><a href="/users/logout"><i class="glyphicon glyphicon-log-out"></i> تسجيل خروج</a></li>
             </ul>
         </div>
         <!-- Addmission dropdown starts -->
         <div class="btn-group pull-right">
             <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 
-                <i class="glyphicon glyphicon-th-large"></i><span class=""> Admission</span>
+                <i class="glyphicon glyphicon-th-large"></i><span class=""> قبول الطلاب</span>
                 <span class="caret"></span>
             </button>
             <ul class="dropdown-menu">
-                <li><a href="/applicants"><i class="glyphicon glyphicon-th-list"></i> Applicant List</a></li>
+                <li><a href="/applicants"><i class="glyphicon glyphicon-th-list"></i> قائمة الطلبات</a></li>
                 <li class="divider"></li>
-                <li><a href="/regonline" target="_blank"><i class="glyphicon glyphicon-list-alt"></i> Online Registration</a></li>
-                <li><a href="/admitcard" target="_blank"><i class="glyphicon glyphicon-print"></i> Print  Admitcard</a></li>
+                <li><a href="/regonline" target="_blank"><i class="glyphicon glyphicon-list-alt"></i> طلب تسجيل طالب</a></li>
+                <li><a href="/admitcard" target="_blank"><i class="glyphicon glyphicon-print"></i> طباعه الموافقة</a></li>
 
 
 
@@ -120,60 +120,60 @@
         <div class="btn-group pull-right">
             <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 
-                <i class="glyphicon glyphicon-book"></i><span class=""> Library</span>
+                <i class="glyphicon glyphicon-book"></i><span class=""> المكتبة</span>
                 <span class="caret"></span>
             </button>
             <ul class="dropdown-menu">
 
-                <li><a href="/library/search"><i class="glyphicon glyphicon-search"></i> Book Search</a></li>
-                <li><a href="/library/issuebook"><i class="glyphicon glyphicon-pencil"></i> Borrow Book</a></li>
-                <li><a href="/library/issuebookview"><i class="glyphicon glyphicon-list"></i> Borrowd Book List</a></li>
+                <li><a href="/library/search"><i class="glyphicon glyphicon-search"></i> بحث عن كتاب</a></li>
+                <li><a href="/library/issuebook"><i class="glyphicon glyphicon-pencil"></i> استعاره كتاب</a></li>
+                <li><a href="/library/issuebookview"><i class="glyphicon glyphicon-list"></i> قائمة الكتب المستعارة</a></li>
                 <li class="divider"></li>
-                    <li><a href="/library/view-show"><i class="glyphicon glyphicon-list"></i> Book List</a></li>
-                    <li><a href="/library/addbook"><i class="glyphicon glyphicon-pencil"></i> Book Entry</a></li>
-                    <li><a href="/library/reports"><i class="glyphicon glyphicon-print"></i> Reports</a></li>
-                    <li><a href="/library/reports/fine"><i class="glyphicon glyphicon-print"></i> Monthly Fine Reports</a></li>
+                    <li><a href="/library/view-show"><i class="glyphicon glyphicon-list"></i> قائمة الكتب</a></li>
+                    <li><a href="/library/addbook"><i class="glyphicon glyphicon-pencil"></i> اضافه كتاب</a></li>
+                    <li><a href="/library/reports"><i class="glyphicon glyphicon-print"></i> التقارير</a></li>
+                    <li><a href="/library/reports/fine"><i class="glyphicon glyphicon-print"></i> تقرير شهري بالغرامه</a></li>
 
 
             </ul>
         </div>
         <!-- Library dropdown ends -->
         <!-- Dormitory dropdown starts -->
-        <div class="btn-group pull-right">
-            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-
-                <i class="glyphicon glyphicon-home"></i><span class=""> Dormitory</span>
-                <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu">
-
-                <li><a href="/dormitory"><i class="glyphicon glyphicon-home"></i> Dormitory</a></li>
-                <li><a href="/dormitory/assignstd"><i class="glyphicon glyphicon-plus"></i> Assign Student</a></li>
-                <li><a href="/dormitory/assignstd/list"><i class="glyphicon glyphicon-user"></i> Student List</a></li>
-                <li class="divider"></li>
-                    <li><a href="/dormitory/fee"><i class="glyphicon glyphicon-list"></i> Fee Collection</a></li>
-                    <li><a href="/dormitory/report/std"><i class="glyphicon glyphicon-print"></i> Dormitory Report</a></li>
-                    <li><a href="/dormitory/report/fee"><i class="glyphicon glyphicon-print"></i> Fee Reports</a></li>
-
-            </ul>
-        </div>
+<!--        <div class="btn-group pull-right">-->
+<!--            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">-->
+<!---->
+<!--                <i class="glyphicon glyphicon-home"></i><span class=""> Dormitory</span>-->
+<!--                <span class="caret"></span>-->
+<!--            </button>-->
+<!--            <ul class="dropdown-menu">-->
+<!---->
+<!--                <li><a href="/dormitory"><i class="glyphicon glyphicon-home"></i> Dormitory</a></li>-->
+<!--                <li><a href="/dormitory/assignstd"><i class="glyphicon glyphicon-plus"></i> Assign Student</a></li>-->
+<!--                <li><a href="/dormitory/assignstd/list"><i class="glyphicon glyphicon-user"></i> Student List</a></li>-->
+<!--                <li class="divider"></li>-->
+<!--                    <li><a href="/dormitory/fee"><i class="glyphicon glyphicon-list"></i> Fee Collection</a></li>-->
+<!--                    <li><a href="/dormitory/report/std"><i class="glyphicon glyphicon-print"></i> Dormitory Report</a></li>-->
+<!--                    <li><a href="/dormitory/report/fee"><i class="glyphicon glyphicon-print"></i> Fee Reports</a></li>-->
+<!---->
+<!--            </ul>-->
+<!--        </div>-->
         <!-- Dormitory dropdown ends -->
         <!-- fees dropdown starts-->
         <div class="btn-group pull-right">
             <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 
-                <i class="glyphicon glyphicon-list-alt"></i><span class=""> Fees</span>
+                <i class="glyphicon glyphicon-list-alt"></i><span class=""> الرسوم</span>
                 <span class="caret"></span>
             </button>
             <ul class="dropdown-menu">
-                <li><a href="/fees/view"><i class="glyphicon glyphicon-search"></i> Student Fees</a></li>
-                <li><a href="/fee/collection"><i class="glyphicon glyphicon-pencil"></i> Fees Collection</a></li>
+                <li><a href="/fees/view"><i class="glyphicon glyphicon-search"></i> رسوم الطالب</a></li>
+                <li><a href="/fee/collection"><i class="glyphicon glyphicon-pencil"></i> اضافه رسوم</a></li>
 
                 <li class="divider"></li>
-                <li><a href="/fees/list"><i class="glyphicon glyphicon-list"></i> Fees List</a></li>
-                <li><a href="/fees/setup"><i class="glyphicon glyphicon-cog"></i> Fees Setup</a></li>
+                <li><a href="/fees/list"><i class="glyphicon glyphicon-list"></i> قائمة الرسوم</a></li>
+                <li><a href="/fees/setup"><i class="glyphicon glyphicon-cog"></i> اعدادات الرسوم</a></li>
                 <li class="divider"></li>
-                <li><a href="/fees/report"><i class="glyphicon glyphicon-print"></i> Fee Collection Report</a></li>
+                <li><a href="/fees/report"><i class="glyphicon glyphicon-print"></i> تقارير الرسوم</a></li>
 
             </ul>
         </div>
@@ -351,8 +351,8 @@
         <hr>
         <p class="col-md-9 col-sm-9 col-xs-12 copyright"> <a href="#" target="_blank">{{Session::get('inName')}}</a> &copy;2016</p>
 
-        <p class="col-md-3 col-sm-3 col-xs-12 powered-by">Develop by: <a
-                    href="https://www.linkedin.com/in/muhammedatallah" target="_blank">Muhammed Atallah</a></p>
+        <p class="col-md-3 col-sm-3 col-xs-12 powered-by"> <a
+                    href="https://www.linkedin.com/in/muhammedatallah" target="_blank">برمجة وتصميم المهندس محمد عطاالله muhammed3tallah@gmail.com 01011192091</a></p>
     </footer>
 
 </div><!--/.fluid-container-->

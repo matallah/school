@@ -109,7 +109,7 @@ class attendanceController extends \BaseController {
 								$msg = "Dear Parents your Child (Name-".$student->firstName." ".$student->middleName." ".$student->lastName.", Class- ".$student->class." , Roll- ".$student->rollNo." ) is Absent in School today.";
 								//  $fatherCellNo = Student::select('fatherCellNo','')->where('regiNo', $absst)->first();
 
-								$response = $this->sendSMS($student->fatherCellNo,"ShanixLab", $msg);
+								$response = $this->sendSMS($student->fatherCellNo,"SBS", $msg);
 								$smsLog = new SMSLog();
 								$smsLog->type = "Attendance";
 								$smsLog->sender = "SuperSoft";

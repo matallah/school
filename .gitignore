@@ -8,3 +8,5 @@ composer.lock
 Thumbs.db
 /public/admission
 /public/images
+.idea/vcs.xml
+.idea/workspace.xml

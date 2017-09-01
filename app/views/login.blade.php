@@ -42,6 +42,7 @@
 
 <body>
 <div class="ch-container">
+    <a href="/regonline" target="_blank"><i class="glyphicon glyphicon-list-alt"></i>طلب تسجيل طالب</a>
     <div class="row">
 
         <div class="row">

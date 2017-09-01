@@ -186,7 +186,7 @@
     <div class="row">
 
         <!-- left menu starts -->
-        <div class="col-sm-2 col-lg-2">
+        <div class="col-sm-2 col-lg-2" >
             <div class="sidebar-nav">
                 <div class="nav-canvas">
                     <div class="nav-sm nav nav-stacked">
@@ -194,69 +194,69 @@
                     </div>
                     <ul class="nav nav-pills nav-stacked main-menu">
                         <li class="nav-header">Main</li>
-                        <li><a class="ajax-link" href="/dashboard"><i class="glyphicon glyphicon-th-large"></i><span> Dashboard</span></a>
+                        <li><a class="ajax-link" href="/dashboard"><i class="glyphicon glyphicon-th-large"></i><span>  الاحصائيات </span></a>
                         </li>
 
                         <li class="accordion">
-                            <a href="#"><i class="glyphicon glyphicon-home"></i><span> Class</span></a>
+                            <a href="#"><i class="glyphicon glyphicon-home"></i><span> الفصول </span></a>
                             <ul class="nav nav-pills nav-stacked">
-                                <li><a href="/class/create">Add New</a></li>
-                                <li><a href="/class/list">Class List</a></li>
+                                <li><a href="/class/create">اضافة فصل</a></li>
+                                <li><a href="/class/list">قائمة الفصول</a></li>
                             </ul>
                         </li>
                         <li class="accordion">
-                            <a href="#"><i class="glyphicon glyphicon-book"></i><span> Subject</span></a>
+                            <a href="#"><i class="glyphicon glyphicon-book"></i><span> المادة الدراسية </span></a>
                             <ul class="nav nav-pills nav-stacked">
-                                <li><a href="/subject/create">Add New</a></li>
-                                <li><a href="/subject/list">Subject List</a></li>
+                                <li><a href="/subject/create">اضافه مادة</a></li>
+                                <li><a href="/subject/list">قائمة المواد</a></li>
                             </ul>
                         </li>
                         <li class="accordion">
-                            <a href="#"><i class="glyphicon glyphicon-user"></i><span> Student</span></a>
+                            <a href="#"><i class="glyphicon glyphicon-user"></i><span> الطلاب </span></a>
                             <ul class="nav nav-pills nav-stacked">
-                                <li><a href="/student/create">Add New</a></li>
-                                <li><a href="/student/list">Student List</a></li>
+                                <li><a href="/student/create">اضافة طالب</a></li>
+                                <li><a href="/student/list">قائمة الطلاب</a></li>
 
                             </ul>
                         </li>
                         <li class="accordion">
-                       <a href="#"><i class="glyphicon glyphicon-pencil"></i><span> Attendance</span></a>
+                       <a href="#"><i class="glyphicon glyphicon-pencil"></i><span> الحضور والغياب </span></a>
                        <ul class="nav nav-pills nav-stacked">
-                           <li><a href="/attendance/create-file">Add from file</a></li>
-                           <li><a href="/attendance/create">Add</a></li>
-                           <li><a href="/attendance/list">View</a></li>
+                           <li><a href="/attendance/create-file">اضافه من ملف</a></li>
+                           <li><a href="/attendance/create">جديد</a></li>
+                           <li><a href="/attendance/list">عرض</a></li>
 
 
                        </ul>
                    </li>
                         <li class="accordion">
-                            <a href="#"><i class="glyphicon glyphicon-list-alt"></i><span> Mark Manage</span></a>
+                            <a href="#"><i class="glyphicon glyphicon-list-alt"></i><span>  تعيين الدرجات </span></a>
                             <ul class="nav nav-pills nav-stacked">
-                                <li><a href="/mark/create">Add New</a></li>
-                                <li><a href="/mark/list">Marks List</a></li>
+                                <li><a href="/mark/create">جديد</a></li>
+                                <li><a href="/mark/list">قوائم الدرجات</a></li>
                             </ul>
                         </li>
                         <li class="accordion">
-                            <a href="#"><i class="glyphicon  glyphicon glyphicon-list"></i><span> Result</span></a>
+                            <a href="#"><i class="glyphicon  glyphicon glyphicon-list"></i><span>  نتائج الامتحانات </span></a>
                             <ul class="nav nav-pills nav-stacked">
-                                <li><a href="/result/generate">Generate</a></li>
-                                <li><a href="/result/search">Search</a></li>
-                                <li><a href="/results">Search Public</a></li>
+                                <li><a href="/result/generate">  استخراج النتائج</a></li>
+                                <li><a href="/result/search">  البحث</a></li>
+                                <li><a href="/results">  بحث عام</a></li>
 
                             </ul>
                         </li>
                         <li class="">
-                            <a href="/promotion"><i class="glyphicon glyphicon-arrow-up"></i><span> Promotion</span></a>
+                            <a href="/promotion"><i class="glyphicon glyphicon-arrow-up"></i><span>  الترفية</span></a>
 
-                        </li>
+
                         <li class="accordion">
-                            <a href="#"><i class="glyphicon  glyphicon glyphicon-list-alt"></i><span> Accounting</span></a>
+                            <a href="#"><i class="glyphicon  glyphicon glyphicon-list-alt"></i><span>  الحسابات</span></a>
                             <ul class="nav nav-pills nav-stacked">
-                                <li><a href="/accounting/sectors">Sectors</a></li>
-                                <li><a href="/accounting/income">Add Income</a></li>
-                                <li><a href="/accounting/incomelist">View Income</a></li>
-                                <li><a href="/accounting/expence">Add Expence</a></li>
-                                <li><a href="/accounting/expencelist">View Expence</a></li>
+                                <li><a href="/accounting/sectors">الارادات والمصروفات</a></li>
+                                <li><a href="/accounting/income">اضافة ارادات</a></li>
+                                <li><a href="/accounting/incomelist">عرض الارادات</a></li>
+                                <li><a href="/accounting/expence">اضافة المصروفات</a></li>
+                                <li><a href="/accounting/expencelist">عرض المصروفات</a></li>
 
                             </ul>
                         </li>
@@ -271,27 +271,27 @@
                           </ul>
                       </li> -->
                         <li class="accordion">
-                            <a href="#"><i class="glyphicon glyphicon-print"></i><span> Reports</span></a>
+                            <a href="#"><i class="glyphicon glyphicon-print"></i><span>  التقارير</span></a>
                             <ul class="nav nav-pills nav-stacked">
-                                <li><a href="/gradesheet">Marksheet</a></li>
-                                <li><a href="/attendance/report">Attendance</a></li>
-                                <li><a href="/tabulation">Tabulationsheet</a></li>
-                                <li><a href="/smslog">SMS Log</a></li>
-                                <li><a href="/accounting/report">Account By Type</a></li>
-                                <li><a href="/accounting/reportsum">Account Balance</a></li>
-                                 <li><a href="/barcode">Barcode Generate</a></li>
+                                <li><a href="/gradesheet">التخرج</a></li>
+                                <li><a href="/attendance/report">الحضور والغياب</a></li>
+                                <li><a href="/tabulation">نتائج الامتحانات</a></li>
+                                <li><a href="/smslog">سجلات الرسائل</a></li>
+                                <li><a href="/accounting/report">تقارير الحسابات</a></li>
+                                <li><a href="/accounting/reportsum">رصيد الحسابات</a></li>
+                                 <li><a href="/barcode">استخراج باركود</a></li>
 
 
                             </ul>
                         </li>
                         @if (Session::get('userRole')=="Admin")
                         <li class="accordion">
-                            <a href="#"><i class="glyphicon glyphicon-cog"></i><span> Settings</span></a>
+                            <a href="#"><i class="glyphicon glyphicon-cog"></i><span>  الإعدادات</span></a>
                             <ul class="nav nav-pills nav-stacked">
-                                <li><a href="/gpa">GPA Ruels</a></li>
+                                <li><a href="/gpa">قواعد الدرجات</a></li>
 
-                                <li><a href="/users">Users</a></li>
-                                <li><a href="/institute">Institute</a></li>
+                                <li><a href="/users">المستخدمين</a></li>
+                                <li><a href="/institute">بيانات المدرسة</a></li>
 
                             </ul>
                         </li>
@@ -352,7 +352,7 @@
         <p class="col-md-9 col-sm-9 col-xs-12 copyright"> <a href="#" target="_blank">{{Session::get('inName')}}</a> &copy;2016</p>
 
         <p class="col-md-3 col-sm-3 col-xs-12 powered-by">Develop by: <a
-                    href="https://www.linkedin.com/in/muhammedatallah">Muhammed Atallah</a></p>
+                    href="https://www.linkedin.com/in/muhammedatallah" target="_blank">Muhammed Atallah</a></p>
     </footer>
 
 </div><!--/.fluid-container-->

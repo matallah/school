@@ -33,29 +33,29 @@
     <!-- /top tiles -->
     <div class="row tile_count text-center">
       <div class="col-md-4 col-sm-4 col-xs-6 tile_stats_count">
-        <span class="count_top"><i class="fa fa-2x fa-home green"></i>     Class</span>
+        <span class="count_top"><i class="fa fa-2x fa-home green"></i>     الفصول</span>
         <div class="count red">{{$total['class']}}</div>
       </div>
       <div class="col-md-4 col-sm-4 col-xs-6 tile_stats_count">
-        <span class="count_top"><i class="fa fa-2x fa-users green"></i> Students</span>
+        <span class="count_top"><i class="fa fa-2x fa-users green"></i> الطلاب</span>
         <div class="count blue">{{$total['student']}}</div>
       </div>
       <div class="col-md-4 col-sm-4 col-xs-6 tile_stats_count">
-        <span class="count_top"><i class="fa fa-2x fa-file green"></i> Subjects</span>
+        <span class="count_top"><i class="fa fa-2x fa-file green"></i> المواد</span>
         <div class="count yellow">{{$total['subject']}}</div>
       </div>
     </div>
     <div class="row tile_count text-center">
       <div class="col-md-4 col-sm-4 col-xs-6 tile_stats_count">
-        <span class="count_top"><i class="fa fa-2x fa-edit green"></i> Attendance(Days)</span>
+        <span class="count_top"><i class="fa fa-2x fa-edit green"></i> الحضور والغياب يوميا</span>
         <div class="count red">{{$total['attendance']}}</div>
       </div>
       <div class="col-md-4 col-sm-4 col-xs-6 tile_stats_count">
-        <span class="count_top"><i class="fa fa-2x fa-pencil green"></i> Exams</span>
+        <span class="count_top"><i class="fa fa-2x fa-pencil green"></i> الإمتحانات</span>
         <div class="count blue">{{$total['exam']}}</div>
       </div>
       <div class="col-md-4 col-sm-4 col-xs-6 tile_stats_count">
-        <span class="count_top"><i class="fa fa-2x fa-book green"></i> Books</span>
+        <span class="count_top"><i class="fa fa-2x fa-book green"></i> الكتب</span>
         <div class="count yellow">{{$total['book']}}</div>
       </div>
     </div>

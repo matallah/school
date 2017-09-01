@@ -89,7 +89,7 @@
 
 
                         <p class="center col-md-5">
-                            <button type="submit" class="btn btn-primary">Login</button>
+                            <button type="submit" class="btn btn-primary">تسجيل الدخول</button>
                         </p>
                     </fieldset>
                 </form>

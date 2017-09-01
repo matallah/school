@@ -78,6 +78,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
+
         <span class="iname">{{Session::get('inName')}}</span>
 
         <!-- user dropdown starts -->

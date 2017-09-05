@@ -80,7 +80,7 @@ return array(
 
 	'key' => 'C6K2HNkGyR4X7D0YH0mU2xIkVjxNSch5',
 
-	'cipher' => MCRYPT_RIJNDAEL_128,
+	'cipher' => MCRYPT_RIJNDAEL_256,
 
 	/*
 	|--------------------------------------------------------------------------
@@ -89,7 +89,7 @@ return array(
 	|
 	| The service providers listed here will be automatically loaded on the
 	| request to your application. Feel free to add your own services to
-	| this array to grant expanded functionality to your applications.
+	| this array to grant expanded functionality to your applications.s
 	|
 	*/
 
